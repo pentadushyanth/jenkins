@@ -3,6 +3,7 @@ pipeline {
         node {
              label 'agent1'
     }
+}
     stages {
         stage('Build') {
             steps {
@@ -21,4 +22,4 @@ pipeline {
         }
     }
 }
-}
+
