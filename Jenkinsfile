@@ -12,9 +12,10 @@ pipeline {
                         echo "building"
                     """
                     }
-                }
+                
                 echo "Building"
             }
+        }
         
         stage('Test') {
             steps {
