@@ -15,7 +15,7 @@ pipeline {
                 }
                 echo "Building"
             }
-        }
+        
         stage('Test') {
             steps {
                 script{ 
@@ -49,5 +49,5 @@ pipeline {
             echo "I will run if failure"
         }
     }
-
+}
 
