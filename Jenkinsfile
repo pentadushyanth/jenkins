@@ -46,7 +46,7 @@ parameters {
                 echo "Building"
             }
         }
-        
+        // this is test section
         stage('Test') {
             steps {
                 script{ 
