@@ -8,7 +8,7 @@ environment {
     Course = "Jenkins"
 }
 options {
-    timeout(time: 10, unit: 'SECONDS')
+    timeout(time: 30, unit: 'SECONDS')
     disableConcurrentBuilds()
 }
 
@@ -31,7 +31,7 @@ parameters {
                     sh """ 
                         echo "building"
                         echo $Course
-                        sleep 10
+                        sleep 5
                         env
 
                         echo "Hello ${params.PERSON}"
