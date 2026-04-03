@@ -24,7 +24,7 @@ parameters {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
     stages {
-
+        //this is build section
         stage('Build') {
             steps {
                 script{ 
